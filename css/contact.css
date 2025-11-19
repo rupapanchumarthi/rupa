@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+}
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: darkorange;
+}
+.navbar nav a {
+    margin-left: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: darkorange;
+
+}
+.navbar nav .active {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+.contact-section {
+    padding: 50px 20px;
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+}
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: darkorange;
+}
+.contact-section p {
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.contact-form {
+    text-align: left;
+}
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: darkorange;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+.contact-form textarea {
+    height: 130px;
+    resize: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: black;
+}
+.btn {
+    width: 100%;
+    padding: 16px;
+    background: white;
+    color: darkorange;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    outline: solid darkorange 2px;
+    font: darkorange;
+}
+.btn:hover {
+    transform: scale(1.03);
+}

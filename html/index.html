@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupa | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sec1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"> Rupa</div>
+            <ul class="menu-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    <nav class="navbar-menu">
+        <div class="logo">Rupa</div>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            <ul class="menu-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    <section class="sec1">
+        <div class="sec1-1"><img src="images/portfolio pfp.png" alt="profile"></div>
+        <div class="sec1-2">
+            <span class="sec1-2-1">Hello, I'm</span>
+            <h1>Rupa</h1>
+            <span class="sec1-2-3">Frontend Developer</span>
+            <p>Aspiring Software Developer | Tech Enthusiast | Lifelong Learner</p>
+            <div class="btns"><button>Download CV</button><button>Contact Info</button></div>
+            <div></div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const menu_bar = document.querySelector(".navbar-menu .menu-bar");
+
+        hamburger.addEventListener("click", () => {
+            menu_bar.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
